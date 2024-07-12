@@ -1,0 +1,37 @@
+.introduce{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(to bottom right,#e86c63,#9833f0);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduce-container{
+    max-width: 700px;
+    width: 100%;
+    background-color: rgba(215, 213, 228, 0.97);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:1.5rem;
+    border:1px solid transparent;
+    border-radius: 10px;
+}
+
+.introduce-btn{
+
+    width: 350px;
+    height: 50px;
+    font-size: 18px;
+    background-color:#51b571;
+    color:white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    cursor: pointer;
+}
